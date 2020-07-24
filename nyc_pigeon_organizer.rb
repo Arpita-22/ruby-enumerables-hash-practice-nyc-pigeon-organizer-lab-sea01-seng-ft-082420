@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
           final_hash[name] = []
    binding.pry 
       end
+      end
      end
    end
  end
