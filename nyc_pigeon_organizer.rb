@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_key,inner_value|
       inner_value.each do |name|
    binding.pry 
- end
- end
- end
+      end
+     end
+   end
 end
