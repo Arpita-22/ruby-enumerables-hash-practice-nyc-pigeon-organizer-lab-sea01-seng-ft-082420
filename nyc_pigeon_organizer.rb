@@ -1,6 +1,7 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   # write your code here!
+  final_hash = {}
   data.each_with_object({})do |(key,value),final_hash|
     value.each do |inner_key,inner_value|
       inner_value.each do |name|
@@ -14,7 +15,6 @@ def nyc_pigeon_organizer(data)
    #binding.pry 
         end
       end
-      final_hash
      end
    binding.pry
  end
