@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
       inner_value.each do |name|
         if !final_hash[name]
           final_hash[name] = []
+        end
    binding.pry 
         end
       end
