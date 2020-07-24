@@ -5,8 +5,10 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_key,inner_value|
       inner_value.each do |name|
         if !final_hash[name]
-          final_hash[name] = []
+          final_hash[name] = {}
         end
+        if !final_hash[name][key]
+          final_hash[name][key] = []
    binding.pry 
         end
       end
